@@ -1,5 +1,5 @@
-#ifndef __intervals_h__
-#define __intervals_h__
+#ifndef __interval_h__
+#define __interval_h__
 
 struct time_of_day {
   unsigned char h; // Hours [0,23]
@@ -26,4 +26,4 @@ ostream& operator<<(ostream& out, interval il) {
   return out << '[' << il.start << ',' << il.end << '[';
 }
 
-#endif // __intervals_h__
+#endif // __interval_h__

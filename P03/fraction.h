@@ -6,6 +6,9 @@ struct fraction {
   int den;
 };
 
+fraction add(fraction a, fraction b);
+fraction mul(fraction a, fraction b);
+
 #include <iostream>
 using namespace std;
 
