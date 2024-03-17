@@ -36,7 +36,7 @@ int adigits(int a, int b, int c){
 */
 
 int adigits(int a, int b, int c){
-    int centenas = max(a, max(b,c));
+    int centenas = maximo(a, maximo(b,c));
     int unidades = min(a, min(b,c));
     int dezenas = a + b + c - centenas - unidades;
 
