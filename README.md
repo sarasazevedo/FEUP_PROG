@@ -1,2 +1,2 @@
 # Programming
-Pratical exercises of the UC.
+Pratical exercises and Project of the UC.
